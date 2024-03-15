@@ -1,0 +1,70 @@
+Video 37. 
+
+Component Functions must follow Two Rules 
+
+1) Name starts with Uppercase Char. Using PascalCase. Pick a name that 
+describes the UI building block.
+
+2) Returns Renderable Content. Return a value than can be rendered by react. JSX
+
+-----------
+
+Video 40. 
+
+React takes a component that is not being crated by react (ON THE FIXES INDEX.HTML)
+Then proceeds to create Root(entryPoint) (entry point is the static index.html tag)
+and then it appends the react app on there
+
+Root Component: First component to be analyzed and rendered by react
+Nested Component: A child component of its parent component.
+
+COMPONENT TREE: heriarchy of components. Each step is rendered by analyzing JSX files and sending it to HTML
+
+CUSTOM COMPONENTS AND BUILT IN COMPONENTS ARE DIFFERENTIATED BY HOW THE NAME FUNCTION STARTS.
+cUSTOM COMPONENTS STARTS WITH MAYUS
+
+
+BUILT IN COMPONENTS: 
+* Start with lowercase
+* only valid, officialy reviewed elements are allowed
+* Rendered as DOM nodes byu React
+
+CUSTOM COMPONENT
+* name with MAYUS
+* defined by Us
+* React transverses this components until there are no more built in components to render
+
+
+----------------
+
+Video 41. Output dynamic code.
+
+----------- 
+Video 42. React Projects and the build process
+
+React Code => Build Process (changes and optimizes, transforms to the browsers) => Deploy files
+
+
+IMPORT THE IMAGE FROM A RELATIVE PATH
+
+----------------------------- 
+Video 43
+
+PROPS: Poder pasarle data a los componentes y usarlos
+
+Vos mandas las props seteadas en las tags
+luego accedes como "props.prop"
+
+ALTERNATIVE PROP SINTAX:
+
+-----------------------
+
+Video 48. 
+
+PROPS.CHILDREN. ALWAYS EXISTS. refiere a los componentes dentro de tu TAG
+
+CHILDREN VS ATTRIBUTES
+
+Children: Closer tu normal HTML USSGE. util para pasar JSX code como valor a otro component
+
+ATTRIBUTES: Multiple smaller pieces of information
