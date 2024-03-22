@@ -68,3 +68,23 @@ CHILDREN VS ATTRIBUTES
 Children: Closer tu normal HTML USSGE. util para pasar JSX code como valor a otro component
 
 ATTRIBUTES: Multiple smaller pieces of information
+
+
+VIDEO 64. PROPS ARE NOT FORWARED TO INNER elements
+
+HOW TO FORWARD PROPS TO INNER ELEMENTS? 
+
+with ...props, at the end
+export default function Section({ title, children, ...props })
+
+CHECK SECTION 
+
+
+VIDEO 66. SEND BUTTONS AND CHILDREN INTO TABS 
+
+VIDEO 67. Setting component types dynamically. 
+
+Receive Tags with DESTRUCTURING WITH MAYUS. ButtonsContainer
+
+
+VIDEO 68. Setting default props values.
